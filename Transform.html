@@ -1,0 +1,36 @@
+<!-- Assigment # 5: Create a circle and move it to  the page using transform and transition. -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 5</title>
+    <style>
+        body{
+            background-color: rgb(221, 221, 33);
+            margin: 5px;
+            padding: 20px;
+            border:  5px solid black;
+        }
+        div {
+            width: 100px;
+            height: 100px;
+            background-color: rgb(196, 89, 32);
+            transition: width 2s, height 2s, transform 2s;
+            border-radius: 360px;
+        }
+
+    div:hover {
+            width: 300px;
+            height: 300px; 
+            transform: rotate(180deg);
+        }
+    </style>
+</head>
+<body>
+    <h3>Transformation</h3>
+    <div class="circle">circle 1
+       <div class="circle">circle 2</div>
+    </div>
+</body>
+</html>
